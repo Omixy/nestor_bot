@@ -8,5 +8,7 @@ scalaVersion := "2.11.7"
 
 oneJarSettings
 
-libraryDependencies +=
-  "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
+libraryDependencies ++= Seq(
+  "net.databinder.dispatch" %% "dispatch-core" % "0.11.2",
+  "mysql" % "mysql-connector-java" % "5.1.36"
+ )
